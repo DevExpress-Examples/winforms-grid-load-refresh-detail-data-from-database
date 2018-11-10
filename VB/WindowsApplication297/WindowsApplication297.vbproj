@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -28,25 +28,26 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v7.2, Version=7.2.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1">
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\7.2.1\DevExpress.Data.v7.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v7.2, Version=7.2.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1">
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\7.2.1\DevExpress.Utils.v7.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v7.2, Version=7.2.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1">
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\7.2.1\DevExpress.XtraEditors.v7.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v7.2, Version=7.2.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\7.2.1\DevExpress.XtraGrid.v7.2.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v7.2, Version=7.2.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1">
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\7.2.1\DevExpress.XtraLayout.v7.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
