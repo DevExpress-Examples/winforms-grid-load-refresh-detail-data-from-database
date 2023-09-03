@@ -21,6 +21,12 @@ This example shows how to load only the required data on demand when the detail 
 * [Form1.cs](./CS/WindowsApplication297/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication297/Form1.vb))
 
 
+## Documentation
+
+* [Master-Detail Relationships](https://docs.devexpress.com/WindowsForms/3473/controls-and-libraries/data-grid/master-detail-relationships)
+* [Working with Master-Detail Relationships in Code](https://docs.devexpress.com/WindowsForms/732/controls-and-libraries/data-grid/master-detail/working-with-master-detail-relationships-in-code)
+
+
 ## See Also
 
 * [DevExpress WinForms Cheat Sheets - XtraGrid Master-Detail Mode](https://go.devexpress.com/CheatSheets_WinForms_Examples_T919464.aspx)
