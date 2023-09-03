@@ -3,25 +3,25 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1173)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
+# WinForms Data Grid - Dynamically load and refresh detail data from the database
+
+This example shows how to load only the required data on demand when the detail view is open. This can be useful if the grid control is bound to a large set of detailed data and you do not want to download the entire data table. The example also shows how to update the data in the detail view without re-expanding the main row.
+
+
+* Handle [master-detail-related events](https://docs.devexpress.com/WindowsForms/732/controls-and-libraries/data-grid/master-detail/working-with-master-detail-relationships-in-code) to avoid excessive database queries.
+* Reload the underlying data table to refresh a detail view. If the child list implements the `IBindingList` interface, the corresponding detail view will be automatically refreshed. Otherwise, you should explicitly call the [RefreshData](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.BaseView.RefreshData) method.
+
+> **Note**
+> 
+> Consider using a WinForms Data Grid in [server mode](https://docs.devexpress.com/WindowsForms/8398/controls-and-libraries/data-grid/data-binding/large-data-sources-server-and-instant-feedback-modes).
+
+
+## Files to Review
 * [Form1.cs](./CS/WindowsApplication297/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication297/Form1.vb))
-<!-- default file list end -->
-# How to dynamically load and refresh detail data from the database
 
 
-<p>The task:<br />
-We have a huge detail data set, and we don't want to load the entire table. How can we load only the required data on demand, when the detail view is open.<br />
-We also want to refresh detail view data by requesting it from the database, without re-expanding the master row.</p><p>The solution:<br />
-This functionality can be implemented by handling the grid's <a href="https://docs.devexpress.com/WindowsForms/732/controls-and-libraries/data-grid/master-detail/working-with-master-detail-relationships-in-code">MasterRow~ events</a>. You should keep tracing created data views to avoid excessive database queries. To refresh a detail view, reload the underlying data table. If the child list implements the IBindingList interface, the corresponding detail view will be automatically refreshed. Otherwise, you should explicitly call the BaseView.RefreshData method.</p><p>Please also consider using the XtraGrid in server mode (see the <a href="http://documentation.devexpress.com/#WindowsForms/CustomDocument2990">Server Mode</a> help topic).</p>
+## See Also
 
-<b>See also:</b>
-
-[DevExpress WinForms Cheat Sheets - XtraGrid Master-Detail Mode](https://go.devexpress.com/CheatSheets_WinForms_Examples_T919464.aspx)
-
-[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
-
-<br/>
-
-
+* [DevExpress WinForms Cheat Sheets - XtraGrid Master-Detail Mode](https://go.devexpress.com/CheatSheets_WinForms_Examples_T919464.aspx)
+* [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
