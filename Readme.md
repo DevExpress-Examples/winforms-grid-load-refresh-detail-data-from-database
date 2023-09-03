@@ -6,7 +6,7 @@
 
 # WinForms Data Grid - Dynamically load and refresh detail data from the database
 
-This example shows how to load only the required data on demand when the detail view is open. This can be useful if the grid control is bound to a large set of detailed data and you do not want to download the entire data table. The example also shows how to update the data in the detail view without re-expanding the main row.
+This example shows how to load only the required data on demand when the detail view is open. This can be useful if the grid control is bound to a large set of detailed data and you do not want to load the entire data table. The example also shows how to update the data in the detail view without re-expanding the main row.
 
 
 * Handle [master-detail-related events](https://docs.devexpress.com/WindowsForms/732/controls-and-libraries/data-grid/master-detail/working-with-master-detail-relationships-in-code) to avoid excessive database queries.
